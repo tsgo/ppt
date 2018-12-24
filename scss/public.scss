@@ -121,6 +121,42 @@ html {
   }
 }
 
+.m_boxs {
+  display: inline-block;
+  position: relative;
+  width: 409px;
+  height: 856px;
+  background-image: url(../img/phone.png);
+  background-repeat: no-repeat;
+  margin-top: 20px;
+
+  .m_box {
+    display: inline-block;
+    width: 351px;
+    height: 627px;
+    // margin-left: 2px;
+    margin-top: 105px;
+    background-color: rgba(210, 215, 224, 1.00);
+    overflow: auto;
+
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: transparent;
+    }
+
+    &::-webkit-scrollbar {
+      background-color: transparent;
+      width: 0;
+    }
+
+    img {
+      display: inline-block;
+      width: 100%;
+      max-width: 351px;
+    }
+  }
+}
 
 
 
